@@ -18,12 +18,12 @@ export const INITIAL_PROJECTS: Project[] = [
     githubLink: "https://github.com/SharminLiza/Final-Year-Design-Project.git",
 
   /* THUMBNAIL */
-  thumbnail: "src/components/public/images/fydp.jpeg",
+  thumbnail: "/projects/fydp.jpeg",
     hasPdfSpecial: true,
     groupImages: [
-      'src/components/public/images/fydp.jpeg',
-      'src/components/public/images/fydp2.jpeg',
-      'src/components/public/images/fydp3.jpeg'
+      '/projects/fydp.jpeg',
+      '/projects/fydp2.jpeg',
+      '/projects/fydp3.jpeg'
     ],
     pdfPages: [
       'Page 1: Abstract & Structural Challenges in Modern LLM Adapters',
@@ -50,7 +50,7 @@ export const INITIAL_PROJECTS: Project[] = [
     // liveLink: 'https://voidmx.audio',
     githubLink: 'https://github.com/uRayanX/Voidmx.git',
     /* THUMBNAIL */
-     thumbnail: "src/components/public/images/void.jpg",
+     thumbnail: "/projects/void.jpg",
         hasPdfSpecial: false
 
   },
@@ -69,7 +69,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['Python', 'TypeScript', 'Postman', 'REST API', 'JSON Schema', 'GitHub Actions'],
     // liveLink: '#',
     githubLink: 'https://github.com/SharminLiza/Parking-Management-System_Unit-Testing.git',
-    thumbnail: "src/components/public/images/jira.avif",
+    thumbnail: "/projects/jira.avif",
 
     hasPdfSpecial: false
   },
@@ -88,7 +88,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['Java', 'JUnit', 'Mockito', 'VS Code', 'Multi-threading', 'Maven'],
     liveLink: '#',
     githubLink: 'https://github.com/sharminsultana/parking-unit-testing',
-        thumbnail: "src/components/public/images/unit.jpg",
+        thumbnail: "/projects/unit.jpg",
 
     hasPdfSpecial: false
   },
@@ -107,7 +107,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['Figma', 'Canva', 'Miro', 'Google Forms', 'Jira', 'VS Code'],
     liveLink: '#',
     githubLink: 'https://github.com/SharminLiza/System-Analysis-Design-Project-ReportHub-BD-.git',
-    thumbnail: "src/components/public/images/civic.png",
+    thumbnail: "/projects/civic.png",
 
     hasPdfSpecial: false
   },
@@ -126,7 +126,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['HTML', 'CSS3', 'Tailwind CSS', 'JavaScript', 'PHP', 'MySQL', 'VS Code'],
     liveLink: '#',
     githubLink: 'https://github.com/SharminLiza/Web-Programming-Project-UIU-Canteen-Management-System.git',
-        thumbnail: "src/components/public/images/canteen.png",
+        thumbnail: "/projects/canteen.png",
 
     hasPdfSpecial: false
   },
@@ -145,7 +145,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['HTML', 'CSS', 'JavaScript', 'Python', 'Flask', 'SQLite3', 'Tailwind CSS'],
     liveLink: '#',
     githubLink: 'https://github.com/SharminLiza/ReportHub_BD.git',
-            thumbnail: "src/components/public/images/dbms.png",
+            thumbnail: "/projects/dbms.png",
 
     hasPdfSpecial: false
   },
@@ -164,7 +164,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['Java', 'Swing/AWT', 'Object-Oriented Design', 'VS Code', 'H2 Database'],
     liveLink: '#',
     githubLink: 'https://github.com/SharminLiza/Plant-Inventory-Management-System.git',
-                thumbnail: "src/components/public/images/plant.jpg",
+                thumbnail: "/projects/plant.jpg",
 
     hasPdfSpecial: false
   },
@@ -183,7 +183,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['C++', 'Arduino IDE', 'ESP32-CAM', 'PIR Motion Sensor', 'Node.js', 'Low-Power Sleep Codes'],
     liveLink: '#',
     githubLink: 'https://github.com/sharminsultana/esp32-security-system',
-    thumbnail: "src/components/public/images/car.jpg",
+    thumbnail: "/projects/car.jpg",
 
     hasPdfSpecial: false,
 
@@ -216,7 +216,7 @@ export const INITIAL_PROJECTS: Project[] = [
     techStack: ['Arduino C', 'SolidWorks', 'Electronics Hardware', 'Proteus', 'Fritzing'],
     liveLink: '#',
     githubLink: 'https://github.com/TashinParvez/Smart-Cricket-Stadium.git',
-        thumbnail: "src/components/public/images/stadium.jpeg",
+        thumbnail: "/projects/stadium.jpeg",
 
     hasPdfSpecial: false
   }
@@ -270,7 +270,7 @@ export const INITIAL_RESEARCH: ResearchPaper[] = [
     //   "/research/ai-1.jpg",
     //   "/research/ai-2.jpg"
     // ],
-    thumbnail: 'src/components/public/images/dengue.jpg',
+    thumbnail: '/projects/dengue.jpg',
             hasPdfSpecial: false
 
 
@@ -284,9 +284,8 @@ export const INITIAL_RESEARCH: ResearchPaper[] = [
     tags: ['Prompt Engineering', 'Green Computing', 'LLM Sustainability', 'Data Pipelines'],
     pdfPagesCount: 5,
     authors: 'Sharmin Sultana Liza, et al.',
-    thumbnail: 'src/components/public/images/prompt.jpg',
-    abstract: 'This research explores the development of an energy-aware prompt engineering framework designed to optimize the sustainability of Large Language Model (LLM) inference. By analyzing the relationship between semantic prompt formulations, token responses, and GPU telemetry energy metrics, we aim to establish a dynamic layout system that calculates inference budgets for carbon-neutral applications.',
-    thumbnail: 'src/components/public/images/prom.jpg'
+    thumbnail: '/research/prom.jpg',
+    abstract: 'This research explores the development of an energy-aware prompt engineering framework designed to optimize the sustainability of Large Language Model (LLM) inference. By analyzing the relationship between semantic prompt formulations, token responses, and GPU telemetry energy metrics, we aim to establish a dynamic layout system that calculates inference budgets for carbon-neutral applications.'
   },
   {
     id: 'r3',
@@ -297,7 +296,7 @@ export const INITIAL_RESEARCH: ResearchPaper[] = [
     tags: ['rPPG Technology', 'Computer Vision', 'Affinity Mining', 'Mental Health Tech'],
     pdfPagesCount: 12,
     authors: 'Sharmin Sultana Liza',
-    thumbnail: 'src/components/public/images/stress.jpg',
+    thumbnail: '/projects/stress.jpg',
     abstract: 'This paper presents a comprehensive multimodal video dataset designed for non-contact stress and mental state analysis. By integrating remote photoplethysmography (rPPG) technology with facial feature tracking, the dataset enables the classification of academic and cognitive stress fatigue scales, providing valuable insights for mental health technology applications.'
   },
   {
@@ -310,7 +309,7 @@ export const INITIAL_RESEARCH: ResearchPaper[] = [
     pdfPagesCount: 10,
     authors: 'Sharmin Sultana Liza',
     abstract: 'This research introduces a multimodal machine learning framework aimed at the early detection of developmental disability risk in children. By integrating demographic datasets from Bangladesh Demographic and Health Surveys (BDHS), WHO baseline grids, and climate vectors from NASA SEDAC, the framework forecasts childhood disability risks in isolated regional areas, providing critical insights for healthcare interventions.',
-    thumbnail: 'src/components/public/images/child.jpg'
+    thumbnail: '/projects/child.jpg'
   },
   {
     id: 'r5',
@@ -322,7 +321,7 @@ export const INITIAL_RESEARCH: ResearchPaper[] = [
     pdfPagesCount: 7,
     authors: 'Sharmin Sultana Liza, CSE Dept',
     abstract: 'This paper analyzes the privacy trade-offs associated with federated learning in medical data processing. By evaluating localized noise additions (Differential Privacy) and cryptographic key mechanisms in collaborative clinics, we determine optimized thresholds that balance algorithmic correctness against server privacy attacks, providing insights for secure medical data handling.',
-    thumbnail: 'src/components/public/images/fe.png'
+    thumbnail: '/projects/fe.png'
   }
 ];
 
@@ -435,27 +434,27 @@ export const ACADEMIC_JOURNEY: AcademicMilestone[] = [
     institution: 'BCIC College, Mirpur, Dhaka',
     year: '2019 - 2020',
     detailLabel: 'Academic Score',
-    detailValue: 'GPA 5.00 [Science Division, Focus on Physics & Calculus]'
+    detailValue: 'GPA 5.00'
   },
   {
     degree: 'Secondary School Certificate (SSC)',
     institution: "Mirpur Girls' Ideal Laboratory & Institute",
     year: '2017 - 2018',
     detailLabel: 'Academic Score',
-    detailValue: 'GPA 5.00 [Science Division, High Distinction Award]'
+    detailValue: 'GPA 5.00'
   },
   {
     degree: 'Junior School Certificate (JSC)',
     institution: "Mirpur Girls' Ideal Laboratory & Institute",
     year: '2015',
     detailLabel: 'Academic Score',
-    detailValue: 'GPA 5.00 [Board Scholarship Recipient]'
+    detailValue: 'GPA 5.00'
   },
   {
     degree: 'Primary School Certificate (PSC)',
     institution: "Mirpur Girls' Ideal Laboratory & Institute",
     year: '2012',
     detailLabel: 'Academic Score',
-    detailValue: 'GPA 5.00 [Gold Star Elementary Class Honors]'
+    detailValue: 'GPA 5.00'
   }
 ];

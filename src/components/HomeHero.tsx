@@ -197,7 +197,7 @@ export default function HomeHero({ darkMode, onViewProjects, onContactMe }: Home
             <div className={`absolute inset-[3px] rounded-full overflow-hidden ${darkMode ? 'bg-neutral-950' : 'bg-neutral-100'}`}>
               {/* Premium abstract placeholder with Unsplash representing high-end candidate */}
               <img
-                src="src\components\public\images\Sharmin_Sultana_Liza.jpg"
+                src="/images/Sharmin_Sultana_Liza.jpg"
                 alt="Sharmin Sultana Liza"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover grayscale-20 hover:grayscale-0 transition-all duration-500 scale-102 hover:scale-105"
